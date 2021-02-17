@@ -1,7 +1,7 @@
 """
 Python Class Development good practices as presented by Raymond Hettinger on PyCon 2013
 https://www.youtube.com/watch?v=HTLu2DFOdTg&t=1109s
-Python's standard solutions for standard problems
+Python's standard solutions for standard problems.
 """
 
 import math
