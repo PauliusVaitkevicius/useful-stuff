@@ -5,9 +5,9 @@ Python's standard solutions for standard problems.
 """
 
 import math
+import numpy as np
 import sys
 from random import random, seed
-import numpy as np
 
 
 class Circle(object):
@@ -29,10 +29,9 @@ class Circle(object):
     def radius(self):
         return self.diameter / 2.0
 
+    # in case we could not store radius anymore and only option was to calcutale radius from diameter
     @radius.setter
-    def radius(
-        self, radius
-    ):  # in case we could not store radius anymore and only option was to calcutale radius from diameter
+    def radius(self, radius):
         self.diameter = radius * 2.0
 
     def area(self):
